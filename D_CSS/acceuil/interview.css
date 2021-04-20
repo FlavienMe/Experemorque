@@ -1,0 +1,91 @@
+
+section#interview
+{
+	display:flex;               /* flexbox */
+	flex-direction:row;			/* en ligne */
+	width:100%;					/* largeur : la fenêtre */
+	min-height:200px;           /* Hauteur section pour haamonisation visuelle */
+	/*background-image:url(../D_IMG/image2.jpg);   /* couleur fond */
+	background-color : #082225;
+	margin: auto;				/* marge auto pour centrer l'ensemble */
+	color:white;				/* couleur police en blanc; */
+}
+
+/* La section contient un formulaire dont les éléments sont redimensionnés si fenêtre modifiée */
+form
+{
+	flex:auto;
+}
+
+/* Taille des images */
+img
+{
+	width:250px;
+	height:120px;
+}
+
+/* Positionnement du texte */
+h1
+{
+	text-align:right;
+}
+
+/* tous les libellés seront écrits en blanc */
+label
+{
+	color:white;
+}
+
+/* Positionnement du texte */
+
+tr
+{
+	text-align:left;
+}
+
+
+
+/* Tous les composants zone de saisie auront le même format */
+input[type=text] 
+{
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+/* Tous les composants button auront le même format */
+
+input[type=button] {
+  width: 80%;
+  background-color: #5C463D;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* si on passe sur les boutons, on modifie la couleur */
+input[type=button]:hover 
+{
+  background-color: #690D08;
+}
+
+textarea
+{
+  width: 80%;
+  height: 125px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 40px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  
+}
