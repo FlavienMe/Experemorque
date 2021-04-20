@@ -1,0 +1,89 @@
+
+/* flexbox en ligne sur la section */
+
+section#box
+{
+	display:flex;               /* flexbox */
+	width:100%;					/* largeur : la fenêtre */
+	flex-direction:column;		/* en ligne */
+	min-height:850px;           /* Hauteur section pour haamonisation visuelle */
+	background-image:url(../../D_IMG/remorque2.jpg);   /* couleur fond */
+	margin: auto;				/* marge auto pour centrer l'ensemble */
+	color:white;				/* couleur police en blanc; */
+}
+
+/* La section contient un formulaire dont les éléments sont redimensionnés si fenêtre modifiée */
+
+form
+{
+	flex:auto;
+}
+
+/* Taille des images */
+
+img
+{
+	width:393 px;
+	height:447 px;
+	
+}
+
+/* tous les libellés seront écrits en blanc */
+label
+{
+	color:white;
+}
+
+/* Tous les composants zone de saisie auront le même format */
+input[type=text] 
+{
+  width:100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+div 
+{ 
+text-align : center ;
+
+
+}
+	
+/* Tous les composants button auront le même format*/ 
+
+input[type=button] {
+  width: 80%;
+  background-color: #5C463D;
+  color: white;
+  padding: 2px 10px;
+  margin: 80px 0;
+  border: #10535B;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* si on passe sur les boutons, on modifie la couleur */
+input[type=button]:hover 
+{
+  background-color: #690D08;
+}
+
+textarea
+{
+  width: 80%;
+  height: 75px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 40px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  
+}
+*/
+	
