@@ -1,0 +1,60 @@
+html, body
+{
+	margin : 0;					/* marges extérieures et intérieures */
+	padding : 0;				/* mises à zéro */
+}
+
+.back
+{							/* couleur de fond du body */
+	background-color:#10535B;
+	min-height : 400px;
+}
+.menu{
+	background-color : #082225 ;/* background du menu */
+	width : 100%;				/* largeur du menu */
+	height : 150px;				/* hauteur du menu */
+	line-height : 30px;     	/* hauteur d'une ligne avec cadre */
+}
+
+.conteneur
+{						/* un conteneur large de 80% de nav */
+	width : 100%;
+	margin : auto;				/* margin en auto c-a-d centré */
+} 
+
+
+
+.m-left 
+{                       /* partie gauche du menu */
+	float :center;
+}
+
+.m-right
+{                       /* partie droite du menu */
+	float : center;
+}
+
+.logo
+{							/* pour coller en haut d'écran le menu avec h1 */
+	margin : 30px;
+	padding : 0px 0px;                /* on enlève le margin et le padding */
+	color : white;				/* couleur du texte blanc */
+	text-transform : uppercase; /* Les minuscules sont transformées en majusucules */
+	font-weight:bold;           /* la police sera en gras */
+	font-size: 40px;            /* hauteur des caractères 16 pixels */
+	letter-spacing: 3px;        /* espacement entre les lettres 3 pixels */
+}
+
+.m-link
+{
+	text-decoration : none;		/* on enlève le trait de soulignement */	
+	color:#fff;                 /* la couleur est blanche */
+	text-transform : uppercase; /* le texte est en majuscule */
+	font-weight:italic;           /* la police est en gras */
+	font-size: 17px;            /* La hauteur de 16 pixels */
+	letter-spacing: 1px;        /* l'espacement entre les lettres de 1pixel */
+	margin : 70px;               /* margin et padding à zéro */
+	padding : 0px 0px;
+}
+
+
