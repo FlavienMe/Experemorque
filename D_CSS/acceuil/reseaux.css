@@ -1,0 +1,48 @@
+﻿
+section#reseaux
+{
+	display:flex;               /* flexbox */
+	flex-direction:column;			/* en ligne */
+	width:100%;					/* largeur : la fenêtre */
+	min-height:250px;           /* Hauteur section pour haamonisation visuelle */
+	background-color : #082225;
+	margin: auto;				/* marge auto pour centrer l'ensemble */
+	color:white;				/* couleur police en blanc; */
+}
+
+/* La section contient un formulaire dont les éléments sont redimensionnés si fenêtre modifiée */
+form
+{
+	flex:auto;
+}
+
+/* Taille des images */
+img
+{
+	width:100x;
+	height:100px;	
+	padding: 2px 50px;
+	
+}
+
+
+div 
+{ 
+	text-align : center ;
+	flex-direction:row;			/* en ligne */
+	width:100x;
+	height:100px;	
+	padding: 2px 50px;
+
+}
+	
+label 
+{
+	text-align : center;
+	margin : 20px;
+	color:#fff;                 /* la couleur est blanche */
+	text-transform : uppercase; /* le texte est en majuscule */
+	font-weight:bold;           /* la police est en gras */
+	font-size: 24px;            /* La hauteur de 16 pixels */
+	letter-spacing: 1px;        /* l'espacement entre les lettres de 1pixel */
+}
