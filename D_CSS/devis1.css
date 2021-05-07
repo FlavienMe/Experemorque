@@ -2,12 +2,13 @@
 
 #img1
 {
-	height : 5%;
 	
+	width : 5%;
+	padding : 2%;
 	
 }
 
-#img1p
+#img1b
 {
 	
 	text-align : center ;
@@ -16,14 +17,18 @@
 
 #img2
 {
-	height : 5%;
-	
+	width : 60%;
+	border: 1px #aacfd0 outset;
+	box-shadow: 20px 20px 6px #aacfd0;
+	margin : 20px;
 	
 }
 
-#img2p
+#img2b
 {
 	
 	text-align : center ;
+	
+
 	
 }
